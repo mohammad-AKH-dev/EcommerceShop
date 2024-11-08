@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/grid.css">
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <title>Room</title>
+</head>
+<body>
+    <!-- toggle menu -->
+    <div class="toggle-wrapper">
+        <div class="toggle-menu">
+            <h3 class="toggle-menu__title">Sølve
+                <div class="xmark-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="x-mark-icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                      </svg> 
+                </div>             
+    
+            </h3>
+            <ul class="toggle-menu__list">
+                <a href="index.html" class="list-item">HOME</a>
+                <a href="shop.html" class="list-item">SHOP</a>
+                <a href="Rooms.html" class="list-item">ROOMS</a>
+                <a href="Lookbook.html" class="list-item">LOOKBOOK</a>
+                <a href="journal.html" class="list-item">JOURNAL</a>
+                <a href="contact.html" class="list-item">CONTACT</a>
+                <a href="Faq.html" class="list-item">FAQ</a>
+            </ul>
+        </div>
+       </div>
+    <!-- header -->
+    <header class="header primary-color" loading="lazy">
+        <!-- shopping cart -->
+        <div class="main-cart-wrapper">
+            <div class="cart-div">
+               <div class="cart-title__wrapper">
+                <h4 class="cart-title">Cart</h4>
+                <P class="cart-close">close</P>
+               </div>
+               <div class="cart-row">
+                <div class="cart-row__wrapper"></div>
+               </div>
+               <div class="total-wrapper">
+                   <div class="totalPrice-wrapper">
+                    <p class="sub-total">SUBTOTAL</p>
+                    <p class="total-price">$ 00.00 USD</p>
+                   </div>
+                   <input type="button" class="clearBasket" value ="CONTINUE TO CHECKOUT">
+               </div>
+            </div>
+        </div>
+        <!-- menu -->
+        <nav class="menu primary-color">
+            <a href="Lookbook.html" class="lookBook primary-color">LOOKBOOK</a>
+            <a href="index.html" class="menu-title color-w">Sølve</a>
+            <div class="option-wrapper flex">
+                <a href="shop.html" class="shop primary-color">SHOP</a>
+           <div class="cart-toggle__wrapper flex">
+            <div class="cart-wrapper flex">
+                <p class="cart">CART</p>
+                <div class="item-count color-h primary-bg">0</div>
+            </div>
+            <!-- menu-toggle-Button -->
+            <div class="menu-toggle">
+                <span class="span-toggle width1 primary-bg"></span>
+                <span class="span-toggle width2 primary-bg"></span>
+            </div>
+        </div>
+           </div>
+        </nav>
+        <div class="container">
+            <div class="Room-title__wrapper">
+                
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main class="room-main">
+        <!-- img-section -->
+        <section class="room-img_wrapper"></section>
+         <!-- room-info -->
+         <section class="room-info_section">
+            <div class="container">
+               <div class="row room-info">
+                <div class="col-12 col-md-6 info-title_wrapper">
+                    <h2 class="info-title">Norwegian Interior Design</h2>
+                </div>
+                <div class="col-12 col-md-6 info-caption_wrapper">
+                    <p class="info-caption1">Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Netus et malesuada fames ac turpis egestas integer eget. A diam maecenas sed enim ut sem viverra aliquet eget. Vel fringilla est ullamcorper eget nulla facilisi etiam. Velit egestas dui id ornare arcu odio ut. Felis donec et odio pellentesque diam volutpat commodo sed egestas. Auctor eu augue ut lectus arcu bibendum at varius. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices.</p>
+                    <p class="info-caption2">Aenean euismod elementum nisi quis eleifend. Vitae purus faucibus ornare suspendisse sed nisi lacus. Mattis enim ut tellus elementum sagittis. Lectus quam id leo in vitae turpis. Lobortis scelerisque fermentum dui faucibus in ornare quam.</p>
+                    <p class="info-caption3">Proin fermentum leo vel orci porta non pulvinar. Diam phasellus vestibulum lorem sed risus ultricies. Quisque egestas diam in arcu cursus. Morbi tincidunt ornare massa eget egestas. Scelerisque eu ultrices vitae auctor eu.</p>
+                </div>
+               </div>
+            </div>
+         </section>
+         <!-- next-room-section -->
+         <section class="next-room__section">
+            <div class="container">
+                <div class="next-room__wrapper">
+
+                </div>
+            </div>
+         </section>
+           <!-- help section -->
+           <section class="help-section">
+            <div class="container">
+                <div class="row help-wrapper">
+                 <div class="col-12 col-md-4 help-title__wrapper">
+                     <h2 class="help-title">Help?</h2>
+                 </div>
+                 <div class="col-12 col-sm-6 col-md-4 local-stores__wrapper">
+                     <h3 class="local-store__title">Local Stores</h3>
+                     <p class="local-store__desc">Proin fermentum leo vel orci porta non pulvinar. Diam phasellus vestibulum lorem sed risus ultricies.</p>
+                     <a href="#" class="local-store__link">FIND A STORE 
+                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="6" viewBox="0 0 32 6" fill="none" class="arrow-link">
+                           <rect x="0.75" y="2.5" width="30" height="1" fill="#343339"/>
+                            <path d="M28.75 0.5L31.25 3L28.75 5.5" stroke="#343339"/>
+                       </svg>
+                     </a>
+                 </div>
+                 <div class="col-12 col-sm-6 col-md-4 Questions__wrapper">
+                     <h3 class="Questions-title">Questions?</h3>
+                     <p class="Questions-desc">Proin fermentum leo vel orci porta non pulvinar. Diam phasellus vestibulum lorem sed risus ultricies.</p>
+                     <a href="#" class="Questions-link">READ THE FAQ 
+                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="6" viewBox="0 0 32 6" fill="none" class="arrow-link">
+                           <rect x="0.75" y="2.5" width="30" height="1" fill="#343339"/>
+                            <path d="M28.75 0.5L31.25 3L28.75 5.5" stroke="#343339"/>
+                       </svg>
+                     </a>
+                 </div>
+             </div>
+            </div>
+           </section>
+    </main>
+     <!-- footer -->
+     <footer class="footer">
+        <div class="container">
+            <div class="row footer-wrapper">
+                <div class="col-12 col-sm-6 col-md-3 footer-item">
+                    <h3 class="footer-title">SOLVE</h3>
+                    <a href="#" class="footer-link">HOME</a>
+                    <a href="Rooms.html" class="footer-link">ROOMS</a>
+                    <a href="journal.html" class="footer-link">JOURNAL</a>
+                    <a href="contact.html" class="footer-link">CONTACT</a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 footer-item">
+                    <h3 class="footer-title">SHOP</h3>
+                    <a href="#" class="footer-link">HOME</a>
+                    <a href="Rooms.html" class="footer-link">ROOMS</a>
+                    <a href="Lookbook.html" class="footer-link">LOOKBOOK</a>
+                    <a href="Faq.html" class="footer-link">FAQ</a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 footer-item">
+                    <h3 class="footer-title">WEBFLOW</h3>
+                    <a href="#" class="footer-link">STYLEGUIDE</a>
+                    <a href="#" class="footer-link">LICENSING</a>
+                    <a href="#" class="footer-link">CHANGELOG</a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 footer-item">
+                    <h3 class="footer-title">SOCIAL</h3>
+                    <a href="#" class="footer-link">INSTAGRAM</a>
+                    <a href="#" class="footer-link">FACEBOOK</a>
+                    <a href="#" class="footer-link">TIKTOK</a>
+                </div>
+            </div>
+        </div>
+        <p class="copy-right">© 2022 Made by Pawel Gola. Powered by Webflow.</p>
+    </footer>
+    <script src="js/Room.js"></script>
+    <script src="js/component.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'New York-Regular';
+    src: url(../fonts/NewYorkMedium-Regular.ttf),format(trueType);
+}
+
+@font-face {
+    font-family: 'Cabinet-Regular';
+    src: url(../fonts/CabinetGrotesk-Regular.otf) format(openType);
+}

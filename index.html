@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/grid.css">
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <title>Ecommerce Website & Shop</title>
+</head>
+<body>
+    <!-- toggle menu -->
+    <div class="toggle-wrapper">
+        <div class="toggle-menu">
+            <h3 class="toggle-menu__title">Sølve
+                <div class="xmark-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="x-mark-icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                      </svg> 
+                </div>             
+    
+            </h3>
+            <ul class="toggle-menu__list">
+                <a href="index.html" class="list-item">HOME</a>
+                <a href="shop.html" class="list-item">SHOP</a>
+                <a href="Rooms.html" class="list-item">ROOMS</a>
+                <a href="Lookbook.html" class="list-item">LOOKBOOK</a>
+                <a href="journal.html" class="list-item">JOURNAL</a>
+                <a href="contact.html" class="list-item">CONTACT</a>
+                <a href="Faq.html" class="list-item">FAQ</a>
+            </ul>
+        </div>
+    </div>
+    <!-- header -->
+    <header class="main-header" loading="lazy">
+        <!-- shopping cart -->
+        <div class="main-cart-wrapper">
+            <div class="cart-div">
+               <div class="cart-title__wrapper">
+                <h4 class="cart-title">Cart</h4>
+                <P class="cart-close">close</P>
+               </div>
+               <div class="cart-row">
+                <div class="cart-row__wrapper"></div>
+               </div>
+               <div class="total-wrapper">
+                   <div class="totalPrice-wrapper">
+                    <p class="sub-total">SUBTOTAL</p>
+                    <p class="total-price">$ 00.00 USD</p>
+                   </div>
+                   <input type="button" class="clearBasket" value ="CONTINUE TO CHECKOUT">
+               </div>
+            </div>
+        </div>
+     </div>
+        <!-- menu -->
+        <nav class="menu">
+            <a href="Lookbook.html" class="lookBook">LOOKBOOK</a>
+            <a href="index.html" class="menu-title">Sølve</a>
+            <div class="option-wrapper flex">
+                <a href="shop.html" class="shop">SHOP</a>
+           <div class="cart-toggle__wrapper flex">
+            <div class="cart-wrapper flex">
+                <p class="cart">CART</p>
+                <div class="item-count">0</div>
+            </div>
+            <!-- menu-toggle-Button -->
+            <div class="menu-toggle">
+                <span class="span-toggle width1"></span>
+                <span class="span-toggle width2"></span>
+            </div>
+        </div>
+           </div>
+        </nav>
+        <div class="container">
+            <div class="header-wrapper">
+                <h1 class="head-title">DESIGN FURNITURE</h1>
+                <a href="shop.html" class="shop-link">SHOP NOW</a>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main class="main">
+        <!-- Featued-section -->
+      <section class="Featured-section" loading="lazy">
+        <div class="container">
+            <h2 class="Featured-title">
+                Featured
+            </h2>
+            <div class="row Featured-wrapper">
+               <div class="col-12 col-sm-6 col-md-4 Featured-room">
+                <div class="new">NEW</div>
+                <img src="images/Modern Chair.png" alt="Modern chair" class="img-room">
+                <p class="name-room">MODERN CHAIR</p>
+                <p class="price-room">$ 249.00 USD</p>
+               </div>
+               <div class="col-12 col-sm-6 col-md-4 Featured-room">
+                <img src="images/Elegant Lamp.png" alt="Elegant Lamp" class="img-room">
+                <p class="name-room">ELEGANT LAMP</p>
+                <p class="price-room">$ 129.00 USD</p>
+            </div>
+               <div class="col-12 col-sm-6 col-md-4 Featured-room">
+                <img src="images/Black Chair.png" alt="Black Chair" class="img-room">
+                <p class="name-room">BLACK CHAIR</p>
+                <p class="price-room">$ 199.00 USD</p>
+            </div>
+            </div>
+            <div class="row Featured-desc">
+                <div class=" col-12 col-md-6">
+                    <div class="title-wrapper">
+                        <h2 class="Featured-2th-title">Lorem ipsum</h2>
+                    </div>
+                </div>
+                <div class=" col-12 col-md-6 Featured-description-wrapper">
+                   <p class="Featured-description">Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Netus et malesuada fames ac turpis egestas integer eget. A diam maecenas sed enim ut sem viverra aliquet eget. Vel fringilla est ullamcorper eget nulla facilisi etiam. Velit egestas dui id ornare arcu odio ut. Felis donec et odio pellentesque diam volutpat commodo sed egestas. Auctor eu augue ut lectus arcu bibendum at varius. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices.</p>
+                   <p class="Featured-description">Aenean euismod elementum nisi quis eleifend. Vitae purus faucibus ornare suspendisse sed nisi lacus. Mattis enim ut tellus elementum sagittis. Lectus quam id leo in vitae turpis. Lobortis scelerisque fermentum dui faucibus in ornare quam.</p>
+                   <p class="Featured-description">Proin fermentum leo vel orci porta non pulvinar. Diam phasellus vestibulum lorem sed risus ultricies. Quisque egestas diam in arcu cursus. Morbi tincidunt ornare massa eget egestas. Scelerisque eu ultrices vitae auctor eu.</p>
+                   <a href="shop.html" class="shop-description">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Rooms-bg-section -->
+      <section class="Rooms-bg">
+        <div class="rooms-bg-title__wrapper">
+            <h2 class="Rooms-bg-title">SOLVE</h2>
+        </div>
+        <img src="images/miz.jpg" alt="miz" class="miz">
+        <img src="images/Canape.jpg" alt="Canape" class="Canape">
+        <img src="images/Elegant-Lamp-room.jpg" alt="Lamp" class="Lamp">
+        <img src="images/anna-flowers.jpg" alt="anna-flowers" class="anna-flowers">
+        <img src="images/chair.jpg" alt="chair" class="chair">
+        <img src="images/solo-canape.jpg" alt="solo-canape" class="solo-canape">
+    </section>
+    <!-- Rooms-section -->
+    <section class="Rooms">
+        <div class="container">
+            <div class="Rooms-title__wrapper">
+                <h2 class="Rooms-title">Rooms</h2>
+                <a href="Rooms.html">SEE ALL
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="6" viewBox="0 0 32 6" fill="none">
+                        <rect x="0.75" y="2.5" width="30" height="1" fill="#343339"/>
+                        <path d="M28.75 0.5L31.25 3L28.75 5.5" stroke="#343339"/>
+                        </svg>
+                </a>
+            </div>
+            <div class="row Rooms-wrapper">
+                <div class="col-12 col-sm-6 col-lg-4 OSLO"><p class="Room-title">OSLO</p></div>
+                <div class="col-12 col-sm-6 col-lg-4 NEW-YORK"><p class="Room-title">NEW YORK</p></div>
+                <div class="col-12 col-sm-6 col-lg-4 LISBON"><p class="Room-title">LISBON</p></div>
+            </div>
+        </div>
+    </section>
+    <!-- Stores section -->
+    <section class="stores-section">
+        <div class="container">
+            <h3 class="stores-title">Our Stores</h3>
+            <div class="row stores-wrapper">
+                <div class="col-12 col-md-6 store-wrapper">
+                     <div class="store-img__wrapper">
+                        <img src="images/hamburg-store.jpg" alt="hamburg" class="hamburg-store">
+                     </div>
+                     <div class="store">
+                       <h3 class="store-title">Hamburg</h3>
+                       <p class="store-description">
+                        Sølve Store
+                       </p>
+                       <p class="store-number">22765 Hamburg</p>
+                       <a href="#">Get Directions
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="6" viewBox="0 0 32 6" fill="none">
+                          <rect y="2.5" width="30" height="1" fill="#343339"/>
+                          <path d="M28 0.5L30.5 3L28 5.5" stroke="#343339"/>
+                          </svg>
+                       </a>
+                     </div>
+                </div>
+                <div class="col-12 col-md-6 store-wrapper">
+                     <div class="store-img__wrapper">
+                        <img src="images/Lisbon-store.jpg" alt="Lisbon" class="Lisbon-store">
+                     </div>
+                     <div class="store">
+                        <h3 class="store-title">Lisbon</h3>
+                        <p class="store-description">
+                            Sølve Store
+                        </p>
+                        <p class="store-number">1049 Lisbon</p>
+                        <a href="#">Get Directions
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="6" viewBox="0 0 32 6" fill="none">
+                          <rect y="2.5" width="30" height="1" fill="#343339"/>
+                          <path d="M28 0.5L30.5 3L28 5.5" stroke="#343339"/>
+                          </svg>
+                        </a>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-wrapper">
+                <div class="col-12 col-sm-6 col-md-3 footer-item">
+                    <h3 class="footer-title">SOLVE</h3>
+                    <a href="#" class="footer-link">HOME</a>
+                    <a href="Rooms.html" class="footer-link">ROOMS</a>
+                    <a href="journal.html" class="footer-link">JOURNAL</a>
+                    <a href="contact.html" class="footer-link">CONTACT</a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 footer-item">
+                    <h3 class="footer-title">SHOP</h3>
+                    <a href="#" class="footer-link">HOME</a>
+                    <a href="Rooms.html" class="footer-link">ROOMS</a>
+                    <a href="Lookbook.html" class="footer-link">LOOKBOOK</a>
+                    <a href="Faq.html" class="footer-link">FAQ</a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 footer-item">
+                    <h3 class="footer-title">WEBFLOW</h3>
+                    <a href="#" class="footer-link">STYLEGUIDE</a>
+                    <a href="#" class="footer-link">LICENSING</a>
+                    <a href="#" class="footer-link">CHANGELOG</a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 footer-item">
+                    <h3 class="footer-title">SOCIAL</h3>
+                    <a href="#" class="footer-link">INSTAGRAM</a>
+                    <a href="#" class="footer-link">FACEBOOK</a>
+                    <a href="#" class="footer-link">TIKTOK</a>
+                </div>
+            </div>
+        </div>
+        <p class="copy-right">© 2022 Made by Pawel Gola. Powered by Webflow.</p>
+    </footer>
+    <script src="js/component.js"></script>
+</body>
+</html>

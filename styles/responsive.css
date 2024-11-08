@@ -1,0 +1,644 @@
+@media all and (max-width:1400px) {
+    
+}
+
+@media all and (max-width:1200px) {
+    .Rooms-bg{
+        min-height: 100vh;
+    }
+    .rooms-bg-title__wrapper{
+        font-size: 10rem;
+    }
+    .miz, .Canape, .Lamp, .anna-flowers, .chair, .solo-canape{
+        width: 180px;
+        height: 180px;
+      }
+      .rooms-bg-title__wrapper{
+        padding-top: 13rem;
+      }
+      .Canape{
+        bottom: 25.3rem;
+        left: 8rem;
+      }
+      .Lamp {
+        right: 21rem;
+        top: 25rem;
+    }
+    .OSLO, .NEW-YORK,.LISBON{
+        max-width: 18rem;
+        min-height: 18rem;
+    }
+    .store{
+        margin-top: 1.5rem;
+    }
+    .item-detail__wrapper{
+        margin-top: 10rem;
+        padding-left: 3rem;
+    }
+    .item-title{
+        font-size: 5.5rem;
+    }
+    .pop-up__details{
+        width: 51%;
+        inset: 0;
+        margin: 0 auto;
+        padding-left: 1rem;
+    }
+    .close-btn{
+        margin-left: 12.5rem;
+        margin-bottom: 2rem;
+    }
+    .pop-up-delivery__wrapper,.pop-up-returns__wrapper{
+        margin-top: 3rem;
+    }
+    .cart-div{
+        min-height: 44.5rem;
+    }
+    .message-input{
+        min-width: 453px;
+    }
+    .journal-img{
+        height: 26rem;
+    }
+    .info-title{
+        font-size: 5rem;
+    }
+}
+
+@media all and (max-width:992px) {
+    .new{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .rooms-bg-title__wrapper{
+        font-size: 9rem;
+        padding-top: 15rem;
+    }
+    .miz, .Canape, .Lamp, .anna-flowers, .chair, .solo-canape{
+        width: 160px;
+        height: 160px;
+      }
+      .Rooms-wrapper{
+        justify-content: center;
+      }
+      .store-img__wrapper{
+        width: 90%;
+      }
+      .store{
+        margin-top: 1rem;
+      }
+      .mt-4{
+        margin-top: 9rem;
+      }
+      .shop-item__wrapper{
+        gap: 0;
+      }
+      .item-img{
+        height: 40rem;
+        object-fit: cover;
+      }
+      .item-detail__wrapper{
+        padding-left: 0;
+        text-align: center;
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .item-price, .item-description{
+        font-size: 1rem;
+      }
+      .shop-single__row{
+        text-align: center;
+      }
+      .single-desc{
+        max-width: fit-content;
+      }
+      .single-shop_item{
+        list-style: inside;
+      }
+      .single-shop__list{
+        text-align: left;
+        margin-left: 9.5rem;
+        margin-top: 5rem;
+        margin-bottom: -5rem;
+      }
+      .pop-up__details{
+        width: 100%;
+        height: 25%;
+        text-align: center;
+        top: 27rem;
+      }
+      .close-btn{
+        margin-left: 0;
+      }
+      .details__desc{
+        max-width: fit-content;
+      }
+      .detail-item{
+        list-style: inside;
+      }
+      .details-list{
+         margin-left: 0;
+      }
+      .cart-div{
+        min-height: 40rem;
+      }
+      .message-input{
+        min-width: 330px;
+        min-height: 160px;
+        max-height: 160px;
+      }
+      .social-wrapper{
+        flex-direction: column;
+        justify-content: normal;
+        gap: 7rem;
+      }
+      .contact-title{
+        font-size: 7rem;
+      }
+      .journal-img{
+        height: 22rem;
+      }
+      .info-caption_wrapper{
+        padding-left: 4rem;
+      }
+      .info-title{
+        font-size: 4rem;
+      }
+      .room-title {
+        font-size: 9rem;
+      }
+      .modal{
+        margin: 0 auto;
+        right: 0;
+        left: 0;
+        top: 8rem;
+      }
+      .clear-modal{
+        left: -25rem;
+        width: 340px;
+      }
+}
+
+@media all and (max-width:768px) {
+    .head-title{
+        font-size: 5rem;
+    }
+    .lookBook{
+        display: none;
+    }
+    .menu-title{
+        margin-left: 0;
+    }
+    .title-wrapper{
+        max-width: none;
+        margin-left: 0;
+    }
+    .Featured-desc{
+        text-align: center;
+    }
+    .Featured-description-wrapper{
+        align-items: center;
+        margin-top: 4rem;
+    }
+    .shop-description{
+        max-width: none;
+        width: 50%;
+    }
+    .Featured-2th-title{
+        font-size: 4.5rem;
+    }
+    .miz, .Canape, .Lamp, .anna-flowers, .chair, .solo-canape{
+        width: 120px;
+        height: 120px;
+      }
+      .Canape{
+        left: -1rem;
+      }
+      .miz{
+        top: 18rem;
+        left: -1rem;
+      }
+      .rooms-bg-title__wrapper{
+        font-size: 8rem;
+        padding-top: 18rem;
+      }
+      .Lamp {
+        right: 17rem;
+        top: 28.5rem;
+    }
+    .solo-canape {
+        bottom: 25rem;
+        left: 18rem;
+    }
+    .anna-flowers{
+        bottom: 14.5rem;
+    }
+    .OSLO, .NEW-YORK,.LISBON{
+        max-width: 15rem;
+        min-height: 15rem;
+        font-size: 1.8rem
+    }
+    .Room-title{
+        max-width: 9rem;
+    }
+    .store-img__wrapper{
+        width: 50%;
+    }
+    .store{
+        margin-top: 2.5rem;
+    }
+    .stores-wrapper{
+        text-align: center;
+    }
+    .stores-title{
+        text-align: center;
+    }
+    .help-title__wrapper{
+        margin-bottom: 5rem;
+        text-align: center;
+    }
+    .local-stores__wrapper,.Questions__wrapper{
+        text-align: center;
+    }
+    .item-detail__wrapper{
+        padding-left: 1rem;
+    }
+    .single-shop__list{
+        margin-left: 3.5rem;
+    }
+    .pop-up-delivery__wrapper,.pop-up-returns__wrapper{
+        margin-top: 6rem;
+    }
+    .message-input{
+        min-width: 242px;
+    }
+    .contact-title{
+        font-size: 6rem;
+    }
+    .journal-img{
+        height: 17.5rem;
+    }
+    .Room-title_wrapper{
+        margin-right: 0;
+    }
+    .info-title{
+        font-size: 4.5rem;
+        text-align: center;
+    }
+    .info-caption_wrapper{
+        padding-left: 2rem;
+        text-align: center;
+    }
+    .room-title {
+        font-size: 8rem;
+    }
+    .img-link{
+        width: 25rem;
+        height: 25rem;
+    }
+    .next-img__title{
+        top: -5rem;
+        font-size: 7.5rem;
+    }
+    .back-btn{
+        right: 0;
+        left: 0;
+        bottom: -3rem;
+        text-align: center;
+    }
+    .room-title{
+        text-align: center;
+    }
+    .clear-modal{
+        z-index: 2;
+        width: 350px;
+        height: 150px;
+        top: 14rem;
+        left: 0;
+    }
+}
+
+@media all and (max-width:700px) {
+    .miz, .Canape, .Lamp, .anna-flowers, .chair, .solo-canape{
+        display: none;
+      }
+      .rooms-bg-title__wrapper {
+        font-size: 7rem;
+        padding-top: 16rem;
+    }
+}
+
+@media all and (max-width:576px) {
+    .shop-link{
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    .head-title{
+        font-size: 4rem;
+    }
+    .img-room{
+        width: 60%;
+    }
+    .Featured-title{
+        font-size: 4.5rem;
+    }
+    .new{
+        display: none;
+    }
+    .Featured-2th-title{
+        font-size: 3.5rem;
+    }
+    .OSLO, .NEW-YORK,.LISBON{
+        max-width: 21rem;
+        min-height: 21rem;
+        font-size: 3rem;
+    }
+    .Room-title{
+        max-width: 14rem;
+    }
+    .store-wrapper{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .stores-wrapper{
+        gap: 3rem;
+    }
+    .footer-title{
+        font-size: 3.5rem;
+    }
+    .footer-link{
+        font-size: 1.3rem;
+    }
+    .footer-wrapper{
+        gap: 3rem;
+    }
+    .shop-item__wrapper{
+        gap: 2rem;
+    }
+    .help-wrapper{
+        text-align: center;
+    }
+    .local-store__desc, .Questions-desc{
+        max-width: fit-content;
+        font-size: 1rem;
+    }
+    .help-title{
+        margin-bottom: 3rem;
+    }
+    .local-store__link{
+        display: block;
+        margin-bottom: 1.5rem;
+    }
+    .single-shop__list{
+        margin-left: 1rem;
+    }
+    .pop-up__details{
+        height: 60rem;
+    }
+    .contact-wrapper{
+        flex-wrap: wrap-reverse;
+    }
+    .submit-button{
+        width: 100%;
+    }
+    .social-wrapper{
+        text-align: center;
+        margin-top: 5rem;
+        gap: 5rem;
+    }
+    .message-input{
+        min-width: auto;
+    }
+    .contact{
+        margin-right: 0;
+    }
+    .social-title,.contact-Title{
+        font-size: 2.6rem;
+    }
+    .contact-title{
+        font-size: 4rem;
+    }
+    .Question-title{
+        font-size: 1.2rem;
+    }
+    .Questions-wrapper{
+        margin-left: 2rem;
+    }
+    .Journal-title{
+        font-size: 4.3rem;
+    }
+    .tredns-description{
+        font-size: 1rem;
+    }
+    .trends-title{
+        font-size: 4rem;
+    }
+    .journal-items__wrapper{
+        margin-bottom: 3rem;
+    }
+    .journal-img{
+        height: 15.5rem;
+    }
+    .items-wrapper{
+        text-align: center;
+    }
+    .LookBook-img{
+        width: 75%;
+        height: 570px;
+        border-radius: 13rem;
+    }
+    .items-wrapper{
+        gap: 4.5rem;
+    }
+    .img-link{
+        width: 20rem;
+        height: 20rem;
+    }
+    .next-img__title{
+        top: -3rem;
+        font-size: 5.5rem;
+    }
+    .modal{
+        width: 250px;
+        height: 150px;
+        font-size: 1.1rem;
+    }
+    .Rooms-title{
+        font-size: 5rem;
+    }
+}
+
+@media all and (max-width:410px) {
+    .menu{
+        display: block;
+    }
+    .menu-title{
+        margin-bottom: 2rem !important;
+        text-align: center !important;
+        display: block;
+    }
+    .toggle-menu{
+        width: 100%;
+    }
+    .Featured-title{
+        font-size: 3.5rem;
+    }
+    .rooms-bg-title__wrapper {
+        font-size: 4.5rem;
+        padding-top: 12rem;
+    }
+    .item-details{
+        margin-top: -9rem;
+    }
+    .item-title{
+        font-size: 5rem;
+    }
+    .pop-up__details{
+        height: 26%;
+    }
+    .cart-div{
+        width: 100%;
+    }
+    .Journal-title{
+        font-size: 2.5rem;
+    }
+    .journal-img{
+        height: 12.5rem;
+    }
+    .LookBook-img{
+        height: 420px;
+    }
+    .clearBasket{
+        width: 100%;
+    }
+    .cart-desc__wrapper{
+        margin-left: -7rem;
+        margin-right: 0px;
+    }
+    .cart-img{
+        display: none;
+    }
+    .responsive-cart__img{
+        display: block;
+    }
+    .cart-count{
+        right: 6px;
+        top: 0;
+    }
+    .modal{
+        top: 11rem;
+    }
+    .info-title{
+        font-size: 3rem;
+    }
+}
+
+@media all and (max-width:370px) {
+    .head-title{
+        font-size: 3rem;
+    }
+    .Featured-title{
+        font-size: 2.5rem;
+    }
+    .rooms-bg-title__wrapper {
+        font-size: 3.5rem;
+        padding-top: 16rem;
+    }
+    .Rooms-title{
+        font-size: 3.5rem;
+    }
+    .item-title{
+        font-size: 4rem;
+    }
+    .shopping-wrapper{
+        display: block;
+    }
+    .add-button{
+        margin-top: 1rem;
+    }
+    .contact-title{
+        font-size: 2.8rem;
+    }
+    .Questions-wrapper{
+        margin-left: 0;
+    }
+    .journal-img{
+        height: 11.5rem;
+    }
+    .totalPrice-wrapper{
+        justify-content: center;
+    }
+    .img-link{
+        width: 13rem;
+        height: 13rem;
+    }
+    .next-img__title{
+        top: -2rem;
+        font-size: 3.5rem;
+    }
+    .room-title{
+        font-size: 6rem;
+    }
+}
+
+@media all and (max-width:310px) {
+    .cart-title__wrapper{
+        gap: 8.5rem;
+    }
+    .modal{
+        width: 200px;
+        height: 100px;
+        font-size: .9rem;
+    }
+    .option-wrapper{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .info-title{
+        font-size: 2.3rem;
+    }
+}
+
+@media all and (max-width:250px) {
+    .header-wrapper{
+        margin-top: 8rem;
+    }
+    .head-title{
+        font-size: 2.5rem;
+    }
+    .OSLO,.NEW-YORK,.LISBON{
+        max-width: 15rem;
+        min-height: 15rem;
+        font-size: 1.5rem;
+    }
+    .social-share{
+        flex-direction: column;
+    }
+    .pop-up__details{
+        height: 30%;
+    }
+    .contact-title{
+        font-size: 2rem;
+    }
+    .cart-count{
+        top: 4.5rem;
+    }
+    .cart-title__wrapper{
+        gap: 6rem;
+    }
+    .modal{
+        width: 150px;
+        font-size: .7rem;   
+    }
+    .img-link{
+        width: 10rem;
+        height: 10rem;
+    }
+    .next-img__title{
+        font-size: 3rem;
+        top: -1rem;
+    }
+}
